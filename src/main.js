@@ -8,6 +8,7 @@ import './assets/css/global.css'
 // 导入字体图标
 import './assets/fonts/iconfont.css'
 
+
 import TreeTable from 'vue-table-with-tree-grid'
 Vue.component('tree-table', TreeTable)
 
