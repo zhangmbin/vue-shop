@@ -34,7 +34,10 @@ import {
     Step,
     Checkbox,
     CheckboxGroup,
-    Upload
+    Upload,
+    Select,
+    DatePicker,
+    Option
 } from 'element-ui'
 
 Vue.use(Button)
@@ -72,3 +75,6 @@ Vue.use(Step)
 Vue.use(Checkbox)
 Vue.use(CheckboxGroup)
 Vue.use(Upload)
+Vue.use(Select)
+Vue.use(Option)
+Vue.use(DatePicker)

@@ -44,7 +44,7 @@
             ></el-switch>
           </template>
         </el-table-column>
-        
+
         <el-table-column label="操作" width="180px">
           <template v-slot="scope">
             <!-- 修改 -->
@@ -258,7 +258,7 @@ export default {
       const { data: res } = await this.$http.get("users", {
         params: this.queryInfo,
       });
-      // console.log(res);
+      console.log(res);
       if (res.meta.status !== 200) {
         return this.$message.error("获取用户列表失败！");
       }
